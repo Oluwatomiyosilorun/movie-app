@@ -1,0 +1,15 @@
+body{
+    color: white;
+    font-family: Maximum Impact;
+}
+
+/* when the scrollbar isn't moving */
+::-webkit-scrollbar{
+    background: transparent;
+}
+
+/* when the scrollbar is moving */
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgba(0,0,0,0.61);
+    border-radius: 10px;
+}
